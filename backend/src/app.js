@@ -47,11 +47,7 @@ const corsOptions = {
     // Allow requests with no origin (like mobile apps or curl requests)
     if (!origin) return callback(null, true);
     const allowedOrigins = [
-      'http://localhost:3000',
-      'http://localhost:5173',
-      'http://127.0.0.1:3000',
-      'http://127.0.0.1:5173',
-      'http://localhost:5174', // Added for Vite dev server
+      'https://alverge-ai-p5g7.vercel.app', // Vercel frontend deployment
       // Add your production domains here
       process.env.FRONTEND_URL,
       process.env.ALLOWED_ORIGIN_1,
