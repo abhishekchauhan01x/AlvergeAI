@@ -48,6 +48,8 @@ const corsOptions = {
     if (!origin) return callback(null, true);
     const allowedOrigins = [
       'https://alverge-ai-p5g7.vercel.app', // Vercel frontend deployment
+      'https://alverge-ai-p5g7-982xtqgk0-abhishek-chauhans-projects-81c718e5.vercel.app', // Vercel preview domain
+      // Add your production domains here
       // Add your production domains here
       process.env.FRONTEND_URL,
       process.env.ALLOWED_ORIGIN_1,
@@ -134,8 +136,8 @@ app.get('/api/health', async (req, res) => {
 // --- Example Protected Route (for Firebase Auth) ---
 app.get('/api/protected', firebaseAuth, (req, res) => {
   logger.info('Protected route accessed', { userId: req.user.uid });
-  res.json({ 
-    message: 'You are authenticated with Firebase!', 
+  res.json({
+    message: 'You are authenticated with Firebase!',
     userId: req.user.uid,
     timestamp: new Date().toISOString()
   });
@@ -170,10 +172,10 @@ app.use((err, req, res, next) => {
 
 // --- 404 Handler (Catch All Unmatched Routes) ---
 app.use((req, res) => {
-  logger.warn('404 Not Found', { 
-    url: req.originalUrl, 
+  logger.warn('404 Not Found', {
+    url: req.originalUrl,
     method: req.method,
-    ip: req.ip 
+    ip: req.ip
   });
   res.status(404).json({
     error: 'Not found',
@@ -185,9 +187,9 @@ app.use((req, res) => {
 // --- Start Server ---
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  logger.info('Server started', { 
-    port: PORT, 
-    environment: process.env.NODE_ENV || 'development' 
+  logger.info('Server started', {
+    port: PORT,
+    environment: process.env.NODE_ENV || 'development'
   });
   console.log(`🚀 Server running on port ${PORT}`);
   console.log(`🌍 Environment: ${process.env.NODE_ENV || 'development'}`);
