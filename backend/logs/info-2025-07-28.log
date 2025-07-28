@@ -177,3 +177,28 @@
 {"timestamp":"2025-07-28T07:47:00.316Z","level":"INFO","message":"MongoDB connection established"}
 {"timestamp":"2025-07-28T07:47:04.744Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
 {"timestamp":"2025-07-28T07:47:05.519Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T12:10:27.202Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T12:10:28.289Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T12:12:45.362Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T12:12:45.928Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T12:19:48.103Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T12:19:48.727Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T12:22:49.292Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T12:22:49.842Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T12:23:27.191Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T12:23:27.950Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T12:24:14.419Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:14.742Z","level":"INFO","message":"Conversations fetched successfully","count":2,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:14.748Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"4333ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:14.774Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:14.780Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:14.817Z","level":"INFO","message":"Conversations fetched successfully","count":2,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:14.819Z","level":"INFO","message":"HTTP 304 - GET /","method":"GET","url":"/","statusCode":304,"duration":"47ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:15.138Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872881f9953dcc67faf01a","messageCount":2}
+{"timestamp":"2025-07-28T12:24:15.143Z","level":"INFO","message":"HTTP 200 - GET /68872881f9953dcc67faf01a","method":"GET","url":"/68872881f9953dcc67faf01a","statusCode":200,"duration":"365ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:15.165Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:15.254Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872881f9953dcc67faf01a","messageCount":2}
+{"timestamp":"2025-07-28T12:24:15.255Z","level":"INFO","message":"HTTP 304 - GET /68872881f9953dcc67faf01a","method":"GET","url":"/68872881f9953dcc67faf01a","statusCode":304,"duration":"95ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:15.259Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T12:24:15.341Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872881f9953dcc67faf01a","messageCount":2}
+{"timestamp":"2025-07-28T12:24:15.346Z","level":"INFO","message":"HTTP 304 - GET /68872881f9953dcc67faf01a","method":"GET","url":"/68872881f9953dcc67faf01a","statusCode":304,"duration":"88ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}

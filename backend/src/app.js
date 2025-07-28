@@ -51,6 +51,7 @@ const corsOptions = {
       'http://localhost:5173',
       'http://127.0.0.1:3000',
       'http://127.0.0.1:5173',
+      'http://localhost:5174', // Added for Vite dev server
       // Add your production domains here
       process.env.FRONTEND_URL,
       process.env.ALLOWED_ORIGIN_1,

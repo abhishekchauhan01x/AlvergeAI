@@ -1,15 +1,36 @@
-# Node modules (both frontend and backend)
+# Node modules
 node_modules/
 **/node_modules/
 
-# Build output (frontend and backend)
+# Build output
 dist/
 build/
 .vite/
 coverage/
-*.log
 
-# Local env files (all environments)
+# Log files
+*.log
+logs/
+backend/logs/
+
+# Test output
+*.test.*
+*.spec.*
+__tests__/
+test/
+tests/
+*.snap
+
+# Temporary files and folders
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+tmp/
+**/tmp/
+
+# Environment files
 .env
 .env.*.local
 .env.local
@@ -25,20 +46,9 @@ Thumbs.db
 *.swp
 *.swo
 
-# Test output
-*.test.*
-*.spec.*
-__tests__/
-test/
-tests/
-*.snap
-
 # Misc
 *.tgz
 *.zip
-*.bak
-*.tmp
-*.cache
 .yarn/
 .pnpm/
 .nyc_output/
@@ -49,19 +59,21 @@ tests/
 *.local
 *.map
 
-# Mac system files
-Icon?
+# TestSprite
+frontend/testsprite_tests/tmp/
+testsprite_tests/tmp/
 
-# MongoDB memory server artifacts (if any)
-mongodb-memory-server-*
-dump/
-data/ 
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
-node_modules
+# Ignore video and large binary files in assets
+frontend/src/assets/*.mp4
+frontend/src/assets/*.mov
+frontend/src/assets/*.avi
+frontend/src/assets/*.mkv
+frontend/src/assets/*.flv
+frontend/src/assets/*.wmv
+frontend/src/assets/*.webm
+frontend/src/assets/*.jpg
+frontend/src/assets/*.jpeg
+frontend/src/assets/*.png
+frontend/src/assets/*.gif
+frontend/src/assets/*.ico
+frontend/src/assets/*.svg
