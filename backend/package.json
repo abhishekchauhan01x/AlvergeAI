@@ -22,9 +22,12 @@
     "express-validator": "^7.2.1",
     "firebase-admin": "^13.4.0",
     "groq-sdk": "^0.27.0",
-    "mongoose": "^8.16.4",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.16.5",
     "morgan": "^1.10.1",
-    "openai": "^5.10.1"
+    "nanoid": "^5.1.5",
+    "openai": "^5.10.1",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
