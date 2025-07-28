@@ -1,0 +1,179 @@
+{"timestamp":"2025-07-28T07:00:58.365Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:00:58.375Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:00:59.408Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:00:59.409Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:01:01.508Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:01:01.554Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:01:02.191Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:01:02.254Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:01:26.149Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:01:26.187Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:01:26.783Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:01:26.788Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:08:20.691Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:08:21.619Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:09:08.335Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:09:08.904Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:10:45.826Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:10:46.176Z","level":"INFO","message":"Conversations fetched successfully","count":3,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:12:41.126Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:12:41.689Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:12:44.144Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:12:44.715Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:13:20.460Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:13:20.791Z","level":"INFO","message":"Conversations fetched successfully","count":3,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:14:07.829Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:14:08.334Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:15:10.850Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:15:11.794Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:15:26.691Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:26.795Z","level":"INFO","message":"Conversations fetched successfully","count":3,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:26.818Z","level":"INFO","message":"HTTP 304 - GET /","method":"GET","url":"/","statusCode":304,"duration":"633ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:26.838Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:26.868Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68862135a6f593de43351c1f","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:26.888Z","level":"INFO","message":"Conversations fetched successfully","count":3,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:26.892Z","level":"INFO","message":"HTTP 304 - GET /","method":"GET","url":"/","statusCode":304,"duration":"60ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:26.947Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68862135a6f593de43351c1f","messageCount":0}
+{"timestamp":"2025-07-28T07:15:26.953Z","level":"INFO","message":"HTTP 200 - GET /68862135a6f593de43351c1f","method":"GET","url":"/68862135a6f593de43351c1f","statusCode":200,"duration":"92ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:26.956Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68862135a6f593de43351c1f","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:27.289Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68862135a6f593de43351c1f","messageCount":0}
+{"timestamp":"2025-07-28T07:15:27.290Z","level":"INFO","message":"HTTP 304 - GET /68862135a6f593de43351c1f","method":"GET","url":"/68862135a6f593de43351c1f","statusCode":304,"duration":"336ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:27.330Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68862135a6f593de43351c1f","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:27.407Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68862135a6f593de43351c1f","messageCount":0}
+{"timestamp":"2025-07-28T07:15:27.408Z","level":"INFO","message":"HTTP 304 - GET /68862135a6f593de43351c1f","method":"GET","url":"/68862135a6f593de43351c1f","statusCode":304,"duration":"81ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:30.667Z","level":"INFO","message":"Fetching conversation messages","conversationId":"6886212ea6f593de43351c12","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:31.058Z","level":"INFO","message":"Messages fetched successfully","conversationId":"6886212ea6f593de43351c12","messageCount":2}
+{"timestamp":"2025-07-28T07:15:31.060Z","level":"INFO","message":"HTTP 304 - GET /6886212ea6f593de43351c12","method":"GET","url":"/6886212ea6f593de43351c12","statusCode":304,"duration":"398ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:31.072Z","level":"INFO","message":"Fetching conversation messages","conversationId":"6886212ea6f593de43351c12","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:31.143Z","level":"INFO","message":"Messages fetched successfully","conversationId":"6886212ea6f593de43351c12","messageCount":2}
+{"timestamp":"2025-07-28T07:15:31.144Z","level":"INFO","message":"HTTP 304 - GET /6886212ea6f593de43351c12","method":"GET","url":"/6886212ea6f593de43351c12","statusCode":304,"duration":"80ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:37.254Z","level":"INFO","message":"HTTP 200 - DELETE /68862121a6f593de43351c05","method":"DELETE","url":"/68862121a6f593de43351c05","statusCode":200,"duration":"144ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:37.259Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:37.295Z","level":"INFO","message":"Conversations fetched successfully","count":2,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:37.299Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"40ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:44.655Z","level":"INFO","message":"HTTP 200 - DELETE /68862135a6f593de43351c1f","method":"DELETE","url":"/68862135a6f593de43351c1f","statusCode":200,"duration":"279ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:44.660Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:44.698Z","level":"INFO","message":"Conversations fetched successfully","count":1,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:15:44.703Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"44ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:47.335Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:19:47.871Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:19:55.081Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.137Z","level":"INFO","message":"Conversations fetched successfully","count":1,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.145Z","level":"INFO","message":"HTTP 304 - GET /","method":"GET","url":"/","statusCode":304,"duration":"345ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::ffff:127.0.0.1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.159Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.165Z","level":"INFO","message":"Fetching conversation messages","conversationId":"6886212ea6f593de43351c12","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.201Z","level":"INFO","message":"Conversations fetched successfully","count":1,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.203Z","level":"INFO","message":"HTTP 304 - GET /","method":"GET","url":"/","statusCode":304,"duration":"47ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::ffff:127.0.0.1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.238Z","level":"INFO","message":"Messages fetched successfully","conversationId":"6886212ea6f593de43351c12","messageCount":2}
+{"timestamp":"2025-07-28T07:19:55.244Z","level":"INFO","message":"HTTP 200 - GET /6886212ea6f593de43351c12","method":"GET","url":"/6886212ea6f593de43351c12","statusCode":200,"duration":"81ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.250Z","level":"INFO","message":"Fetching conversation messages","conversationId":"6886212ea6f593de43351c12","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.316Z","level":"INFO","message":"Messages fetched successfully","conversationId":"6886212ea6f593de43351c12","messageCount":2}
+{"timestamp":"2025-07-28T07:19:55.318Z","level":"INFO","message":"HTTP 304 - GET /6886212ea6f593de43351c12","method":"GET","url":"/6886212ea6f593de43351c12","statusCode":304,"duration":"69ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.322Z","level":"INFO","message":"Fetching conversation messages","conversationId":"6886212ea6f593de43351c12","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:55.390Z","level":"INFO","message":"Messages fetched successfully","conversationId":"6886212ea6f593de43351c12","messageCount":2}
+{"timestamp":"2025-07-28T07:19:55.393Z","level":"INFO","message":"HTTP 304 - GET /6886212ea6f593de43351c12","method":"GET","url":"/6886212ea6f593de43351c12","statusCode":304,"duration":"72ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:58.445Z","level":"INFO","message":"HTTP 200 - DELETE /6886212ea6f593de43351c12","method":"DELETE","url":"/6886212ea6f593de43351c12","statusCode":200,"duration":"135ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:58.475Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:58.510Z","level":"INFO","message":"Conversations fetched successfully","count":0,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:19:58.511Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"39ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:08.566Z","level":"INFO","message":"Creating new conversation","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:08.623Z","level":"INFO","message":"Conversation created successfully","conversationId":"688724a85279e7a74a3c3ad0","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:08.624Z","level":"INFO","message":"HTTP 201 - POST /","method":"POST","url":"/","statusCode":201,"duration":"73ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:08.631Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:08.672Z","level":"INFO","message":"Conversations fetched successfully","count":1,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:08.674Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"45ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:08.716Z","level":"INFO","message":"Fetching conversation messages","conversationId":"688724a85279e7a74a3c3ad0","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:08.787Z","level":"INFO","message":"Messages fetched successfully","conversationId":"688724a85279e7a74a3c3ad0","messageCount":0}
+{"timestamp":"2025-07-28T07:20:08.788Z","level":"INFO","message":"HTTP 200 - GET /688724a85279e7a74a3c3ad0","method":"GET","url":"/688724a85279e7a74a3c3ad0","statusCode":200,"duration":"74ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:10.556Z","level":"INFO","message":"HTTP 200 - DELETE /688724a85279e7a74a3c3ad0","method":"DELETE","url":"/688724a85279e7a74a3c3ad0","statusCode":200,"duration":"109ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:10.560Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:10.598Z","level":"INFO","message":"Conversations fetched successfully","count":0,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:20:10.599Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"41ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:36.835Z","level":"INFO","message":"Creating new conversation","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:37.155Z","level":"INFO","message":"Conversation created successfully","conversationId":"688725b45279e7a74a3c3ad9","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:37.158Z","level":"INFO","message":"HTTP 201 - POST /","method":"POST","url":"/","statusCode":201,"duration":"324ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:37.164Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:37.213Z","level":"INFO","message":"Conversations fetched successfully","count":1,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:37.293Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"130ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:37.349Z","level":"INFO","message":"Fetching conversation messages","conversationId":"688725b45279e7a74a3c3ad9","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:37.443Z","level":"INFO","message":"Messages fetched successfully","conversationId":"688725b45279e7a74a3c3ad9","messageCount":0}
+{"timestamp":"2025-07-28T07:24:37.445Z","level":"INFO","message":"HTTP 200 - GET /688725b45279e7a74a3c3ad9","method":"GET","url":"/688725b45279e7a74a3c3ad9","statusCode":200,"duration":"97ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:43.989Z","level":"INFO","message":"HTTP 200 - DELETE /688725b45279e7a74a3c3ad9","method":"DELETE","url":"/688725b45279e7a74a3c3ad9","statusCode":200,"duration":"273ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:44.002Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:44.040Z","level":"INFO","message":"Conversations fetched successfully","count":0,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:24:44.041Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"44ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:35:06.065Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:35:06.716Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:35:50.970Z","level":"INFO","message":"Root endpoint accessed","ip":"::1"}
+{"timestamp":"2025-07-28T07:35:50.976Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"12ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-07-28T07:35:51.288Z","level":"INFO","message":"::1 - - [28/Jul/2025:07:35:51 +0000] \"GET /favicon.ico HTTP/1.1\" 404 101 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}
+{"timestamp":"2025-07-28T07:35:55.341Z","level":"INFO","message":"Root endpoint accessed","ip":"::1"}
+{"timestamp":"2025-07-28T07:35:55.342Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"1ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-07-28T07:36:03.692Z","level":"INFO","message":"Root endpoint accessed","ip":"::1"}
+{"timestamp":"2025-07-28T07:36:03.693Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"2ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-07-28T07:36:16.157Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:16.468Z","level":"INFO","message":"Conversations fetched successfully","count":0,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:16.471Z","level":"INFO","message":"HTTP 304 - GET /","method":"GET","url":"/","statusCode":304,"duration":"1476ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:16.474Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:16.511Z","level":"INFO","message":"Conversations fetched successfully","count":0,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:16.512Z","level":"INFO","message":"HTTP 304 - GET /","method":"GET","url":"/","statusCode":304,"duration":"39ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:19.023Z","level":"INFO","message":"Creating new conversation","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:19.111Z","level":"INFO","message":"Conversation created successfully","conversationId":"68872873f9953dcc67faf00d","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:19.112Z","level":"INFO","message":"HTTP 201 - POST /","method":"POST","url":"/","statusCode":201,"duration":"93ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:19.117Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:19.168Z","level":"INFO","message":"Conversations fetched successfully","count":1,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:19.170Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"55ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:19.190Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872873f9953dcc67faf00d","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:19.269Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872873f9953dcc67faf00d","messageCount":0}
+{"timestamp":"2025-07-28T07:36:19.270Z","level":"INFO","message":"HTTP 200 - GET /68872873f9953dcc67faf00d","method":"GET","url":"/68872873f9953dcc67faf00d","statusCode":200,"duration":"82ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:23.074Z","level":"INFO","message":"Processing chat message","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1","conversationId":"68872873f9953dcc67faf00d","textLength":4}
+{"timestamp":"2025-07-28T07:36:24.173Z","level":"INFO","message":"Chat message processed successfully","conversationId":"68872873f9953dcc67faf00d","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:24.176Z","level":"INFO","message":"HTTP 201 - POST /send","method":"POST","url":"/send","statusCode":201,"duration":"1106ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:24.192Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:24.228Z","level":"INFO","message":"Conversations fetched successfully","count":1,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:24.229Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"40ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:33.426Z","level":"INFO","message":"Creating new conversation","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:33.475Z","level":"INFO","message":"Conversation created successfully","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:33.476Z","level":"INFO","message":"HTTP 201 - POST /","method":"POST","url":"/","statusCode":201,"duration":"53ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:33.482Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:33.519Z","level":"INFO","message":"Conversations fetched successfully","count":2,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:33.521Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"40ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:33.562Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:33.634Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872881f9953dcc67faf01a","messageCount":0}
+{"timestamp":"2025-07-28T07:36:33.636Z","level":"INFO","message":"HTTP 200 - GET /68872881f9953dcc67faf01a","method":"GET","url":"/68872881f9953dcc67faf01a","statusCode":200,"duration":"76ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:34.674Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872873f9953dcc67faf00d","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:34.755Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872873f9953dcc67faf00d","messageCount":2}
+{"timestamp":"2025-07-28T07:36:34.758Z","level":"INFO","message":"HTTP 200 - GET /68872873f9953dcc67faf00d","method":"GET","url":"/68872873f9953dcc67faf00d","statusCode":200,"duration":"85ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:34.772Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872873f9953dcc67faf00d","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:34.842Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872873f9953dcc67faf00d","messageCount":2}
+{"timestamp":"2025-07-28T07:36:34.843Z","level":"INFO","message":"HTTP 304 - GET /68872873f9953dcc67faf00d","method":"GET","url":"/68872873f9953dcc67faf00d","statusCode":304,"duration":"73ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:38.279Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:38.420Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872881f9953dcc67faf01a","messageCount":0}
+{"timestamp":"2025-07-28T07:36:38.422Z","level":"INFO","message":"HTTP 304 - GET /68872881f9953dcc67faf01a","method":"GET","url":"/68872881f9953dcc67faf01a","statusCode":304,"duration":"145ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:38.431Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:38.503Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872881f9953dcc67faf01a","messageCount":0}
+{"timestamp":"2025-07-28T07:36:38.504Z","level":"INFO","message":"HTTP 304 - GET /68872881f9953dcc67faf01a","method":"GET","url":"/68872881f9953dcc67faf01a","statusCode":304,"duration":"77ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:41.526Z","level":"INFO","message":"Processing chat message","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1","conversationId":"68872881f9953dcc67faf01a","textLength":7}
+{"timestamp":"2025-07-28T07:36:42.952Z","level":"INFO","message":"Chat message processed successfully","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:42.953Z","level":"INFO","message":"HTTP 201 - POST /send","method":"POST","url":"/send","statusCode":201,"duration":"1433ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:42.961Z","level":"INFO","message":"Fetching conversations","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:42.997Z","level":"INFO","message":"Conversations fetched successfully","count":2,"userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:43.000Z","level":"INFO","message":"HTTP 200 - GET /","method":"GET","url":"/","statusCode":200,"duration":"40ms","userAgent":"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:39:03.443Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:39:04.074Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:40:16.970Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:40:17.527Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:42:19.934Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:42:20.658Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:46:30.406Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:46:30.974Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:46:33.055Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:46:33.645Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:46:41.344Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:46:42.039Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:46:50.934Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:46:51.531Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:46:59.518Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:47:00.316Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T07:47:04.744Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T07:47:05.519Z","level":"INFO","message":"MongoDB connection established"}

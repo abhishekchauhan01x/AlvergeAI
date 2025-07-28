@@ -1,0 +1,4 @@
+{"timestamp":"2025-07-28T07:35:51.282Z","level":"WARN","message":"404 Not Found","url":"/favicon.ico","method":"GET","ip":"::1"}
+{"timestamp":"2025-07-28T07:36:24.172Z","level":"WARN","message":"Slow operation: Complete chat request","operation":"Complete chat request","duration":"1097ms","conversationId":"68872873f9953dcc67faf00d","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T07:36:42.850Z","level":"WARN","message":"Slow operation: AI response generation","operation":"AI response generation","duration":"1211ms","model":"llama3-8b-8192","tokens":134}
+{"timestamp":"2025-07-28T07:36:42.950Z","level":"WARN","message":"Slow operation: Complete chat request","operation":"Complete chat request","duration":"1426ms","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
