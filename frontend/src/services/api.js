@@ -1,6 +1,6 @@
 // API utility for chat app
 export const fetchConversations = async (token) => {
-  const res = await fetch(`${import.meta.env.VITE_API_BASE || 'http://localhost:3000/api'}/chat/`, {
+  const res = await fetch(`${import.meta.env.VITE_API_BASE}/chat/`, {
     headers: { Authorization: `Bearer ${token}` },
   });
   
@@ -14,7 +14,7 @@ export const fetchConversations = async (token) => {
 };
 
 export const fetchMessages = async (token, convId) => {
-  const res = await fetch(`${import.meta.env.VITE_API_BASE || 'http://localhost:3000/api'}/chat/${convId}`, {
+  const res = await fetch(`${import.meta.env.VITE_API_BASE}/chat/${convId}`, {
     headers: { Authorization: `Bearer ${token}` },
   });
   

@@ -9,7 +9,7 @@ import { assets } from '../assets/assets';
 import { useNavigate } from 'react-router-dom';
 
 // API base URL
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:3000/api';
+const API_BASE = import.meta.env.VITE_API_BASE;
 
 // Global event bus for navbar communication
 if (!window.navbarEventBus) {
