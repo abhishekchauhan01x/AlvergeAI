@@ -37,6 +37,7 @@ tmp/
 **/.env
 **/.env.*.local
 **/.env.local
+frontend/.env
 
 # Editor & OS files
 .DS_Store
