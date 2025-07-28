@@ -1,0 +1,67 @@
+# Node modules (both frontend and backend)
+node_modules/
+**/node_modules/
+
+# Build output (frontend and backend)
+dist/
+build/
+.vite/
+coverage/
+*.log
+
+# Local env files (all environments)
+.env
+.env.*.local
+.env.local
+**/.env
+**/.env.*.local
+**/.env.local
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test output
+*.test.*
+*.spec.*
+__tests__/
+test/
+tests/
+*.snap
+
+# Misc
+*.tgz
+*.zip
+*.bak
+*.tmp
+*.cache
+.yarn/
+.pnpm/
+.nyc_output/
+.eslintcache
+*.tsbuildinfo
+
+# Vite/React specific
+*.local
+*.map
+
+# Mac system files
+Icon?
+
+# MongoDB memory server artifacts (if any)
+mongodb-memory-server-*
+dump/
+data/ 
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules

@@ -1,24 +1,50 @@
-# Logs
-logs
+# Node modules
+node_modules/
+.npm/
+
+# Build output
+dist/
+build/
+.vite/
+coverage/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Local env files
+.env
+.env.*.local
+.env.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Editor & OS files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test output
+*.test.*
+*.spec.*
+__tests__/
+test/
+tests/
+*.snap
+
+# Misc
+*.tgz
+*.zip
+*.bak
+*.tmp
+*.cache
+.yarn/
+.pnpm/
+.nyc_output/
+.eslintcache
+*.tsbuildinfo
+
+# Vite/React specific
+*.local
+*.map
+
+# Mac system files
+Icon?
