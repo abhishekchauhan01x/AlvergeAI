@@ -202,3 +202,7 @@
 {"timestamp":"2025-07-28T12:24:15.259Z","level":"INFO","message":"Fetching conversation messages","conversationId":"68872881f9953dcc67faf01a","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
 {"timestamp":"2025-07-28T12:24:15.341Z","level":"INFO","message":"Messages fetched successfully","conversationId":"68872881f9953dcc67faf01a","messageCount":2}
 {"timestamp":"2025-07-28T12:24:15.346Z","level":"INFO","message":"HTTP 304 - GET /68872881f9953dcc67faf01a","method":"GET","url":"/68872881f9953dcc67faf01a","statusCode":304,"duration":"88ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","ip":"::1","userId":"aiT1S1A15Occ23RA3FIi4mru0Xm1"}
+{"timestamp":"2025-07-28T13:07:32.905Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T13:07:33.671Z","level":"INFO","message":"MongoDB connection established"}
+{"timestamp":"2025-07-28T13:13:14.466Z","level":"INFO","message":"Server started","port":3000,"environment":"development"}
+{"timestamp":"2025-07-28T13:13:15.009Z","level":"INFO","message":"MongoDB connection established"}
