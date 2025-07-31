@@ -41,25 +41,21 @@ app.use(helmet({
 }));
 
 // --- CORS Configuration ---
-// Restrict allowed origins for production
+// Production-only allowed origins
 const corsOptions = {
   origin: function (origin, callback) {
     // Allow requests with no origin (like mobile apps or curl requests)
     if (!origin) return callback(null, true);
     const allowedOrigins = [
       'https://alverge-ai-p5g7.vercel.app', // Vercel frontend deployment
-      'https://alverge-ai-p5g7-982xtqgk0-abhishek-chauhans-projects-81c718e5.vercel.app', // Vercel preview domain
-      'http://localhost:5173', // Local development frontend
-      'http://localhost:5173/', // Local development frontend with trailing slash
-      'http://127.0.0.1:5173', // Alternative localhost
-      'http://127.0.0.1:5173/', // Alternative localhost with trailing slash
-      // Add your production domains here
-      // Add your production domains here
+      'https://alvergeai.onrender.com', // Render backend
+      // Environment variables for additional domains
       process.env.FRONTEND_URL,
       process.env.ALLOWED_ORIGIN_1,
       process.env.ALLOWED_ORIGIN_2
     ].filter(Boolean); // Remove undefined values
-    if (allowedOrigins.indexOf(origin) !== -1 || process.env.NODE_ENV === 'development') {
+    
+    if (allowedOrigins.indexOf(origin) !== -1) {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS'));
