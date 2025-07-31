@@ -7,6 +7,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { assets } from '../assets/assets';
 import { useNavigate } from 'react-router-dom';
+import Hamburger from '../ui/hamburger';
 
 // API base URL
 const API_BASE = import.meta.env.VITE_API_BASE;
@@ -37,7 +38,7 @@ if (!window.navbarEventBus) {
 const eventBus = window.navbarEventBus;
 
 // Mobile Navbar Component
-const MobileNavbar = ({ onSidebarToggle, onNavbarToggle }) => {
+const MobileNavbar = ({ onSidebarToggle, onNavbarToggle, sidebarOpen }) => {
   const navigate = useNavigate();
   
   const handleLogoClick = () => {
@@ -48,15 +49,13 @@ const MobileNavbar = ({ onSidebarToggle, onNavbarToggle }) => {
     <nav className="lg:hidden fixed top-0 left-0 right-0 z-90 bg-[#1A1B26] border-b border-gray-800 px-4 py-3">
       <div className="flex items-center justify-between">
         {/* Left Hamburger - Sidebar Toggle */}
-        <button
-          onClick={onSidebarToggle}
-          className="p-2 rounded-lg bg-[#232946] text-white hover:bg-[#1A1B26] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#38BDF8]"
-          aria-label="Toggle sidebar"
-        >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
+        <div className="flex items-center">
+          <Hamburger 
+            onToggle={onSidebarToggle}
+            isOpen={sidebarOpen}
+            size="small"
+          />
+        </div>
 
         {/* Center Logo and Name */}
         <div 
@@ -95,6 +94,7 @@ const ChatInterface = () => {
   const [aiTyping, setAiTyping] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [navbarMenuOpen, setNavbarMenuOpen] = useState(false);
+  const [newMessageIds, setNewMessageIds] = useState(new Set());
   const messagesEndRef = useRef(null);
 
   // Fetch all conversations
@@ -148,6 +148,7 @@ const ChatInterface = () => {
         const data = await response.json();
         console.log('Fetched messages:', data);
         setMessages(data.messages || []);
+        setNewMessageIds(new Set()); // Clear new message tracking when loading existing messages
       } else {
         throw new Error(`HTTP ${response.status}`);
       }
@@ -349,6 +350,7 @@ const ChatInterface = () => {
       
       if (data.aiMessage) {
         setMessages((prev) => [...prev, data.aiMessage]);
+        setNewMessageIds(prev => new Set([...prev, data.aiMessage._id || data.aiMessage.id]));
         await fetchConversations();
       }
       setAiTyping(false);
@@ -365,6 +367,7 @@ const ChatInterface = () => {
         <MobileNavbar 
           onSidebarToggle={handleSidebarToggle}
           onNavbarToggle={handleNavbarToggle}
+          sidebarOpen={sidebarOpen}
         />
       </div>
 
@@ -403,8 +406,8 @@ const ChatInterface = () => {
           className="flex-1 overflow-y-auto px-4 sm:px-6 pt-6 pb-4"
           style={{ WebkitOverflowScrolling: 'touch' }}
         >
-          <div className="w-full max-w-4xl mx-auto flex justify-center">
-            <div className="w-full max-w-2xl">
+          <div className="w-full max-w-7xl mx-auto flex justify-center">
+            <div className="w-full max-w-6xl">
               {loading ? (
                 <div className="flex flex-col items-center justify-center h-full text-center text-[#A1A1AA] gap-2">
                   <div className="w-8 h-8 border-4 border-[#38BDF8] border-t-transparent rounded-full animate-spin mb-2" />
@@ -425,7 +428,11 @@ const ChatInterface = () => {
               ) : (
                 <>
                   {Array.isArray(messages) && messages.map((msg) => (
-                    <MessageBubble key={msg._id || msg.id} message={msg} />
+                    <MessageBubble 
+                      key={msg._id || msg.id} 
+                      message={msg} 
+                      isNewMessage={newMessageIds.has(msg._id || msg.id)}
+                    />
                   ))}
                   {aiTyping && (
                     <div className="flex gap-4 justify-start items-end animate-pulse">
@@ -444,8 +451,8 @@ const ChatInterface = () => {
 
         {/* Input area */}
         <div className="flex-shrink-0 px-4 sm:px-6 pb-4 pt-2 relative z-10 overflow-hidden">
-          <div className="w-full max-w-4xl mx-auto flex justify-center overflow-hidden">
-            <div className="w-full max-w-2xl overflow-hidden">
+          <div className="w-full max-w-7xl mx-auto flex justify-center overflow-hidden">
+            <div className="w-full max-w-6xl overflow-hidden">
               <InputArea onSendMessage={handleSendMessage} />
       </div>
           </div>

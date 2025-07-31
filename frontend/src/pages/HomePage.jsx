@@ -151,9 +151,13 @@ const HomePage = () => {
           >
             <span className="relative z-10 flex items-center gap-2">
             Get Started
-              <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-              </svg>
+              <lord-icon
+                src="https://cdn.lordicon.com/yxwmgaav.json"
+                trigger="hover"
+                style={{ width: '20px', height: '20px' }}
+                className="group-hover:translate-x-1 transition-transform duration-200"
+              >
+              </lord-icon>
             </span>
           </motion.button>
         </motion.div>

@@ -1,0 +1,64 @@
+@keyframes stroke-animation {
+  0% {
+    stroke-dashoffset: 295;
+    stroke-dasharray: 25 270;
+    stroke: #38BDF8;
+  }
+  50% {
+    stroke-dashoffset: 68;
+    stroke-dasharray: 59 236;
+    stroke: #14B8A6;
+  }
+  65% {
+    stroke-dashoffset: 59;
+    stroke-dasharray: 59 236;
+    stroke: #14B8A6;
+  }
+  100% {
+    stroke-dashoffset: 68;
+    stroke-dasharray: 59 236;
+    stroke: #14B8A6;
+  }
+}
+
+@keyframes stroke-animation-reverse {
+  0% {
+    stroke-dashoffset: 68;
+    stroke-dasharray: 59 236;
+    stroke: #14B8A6;
+  }
+  50% {
+    stroke-dashoffset: 290;
+    stroke-dasharray: 25 270;
+    stroke: #38BDF8;
+  }
+  65% {
+    stroke-dashoffset: 295;
+    stroke-dasharray: 25 270;
+    stroke: #38BDF8;
+  }
+  100% {
+    stroke-dashoffset: 290;
+    stroke-dasharray: 25 270;
+    stroke: #38BDF8;
+  }
+}
+
+.animate-stroke-animation {
+  animation: stroke-animation 1.2s ease-out forwards;
+}
+
+.animate-stroke-animation-reverse {
+  animation: stroke-animation-reverse 1.2s ease-out forwards;
+}
+
+/* Add a subtle glow effect on hover */
+.hamburger-container:hover svg {
+  filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.3));
+}
+
+/* Add a subtle scale effect on click */
+.hamburger-container:active svg {
+  transform: scale(0.95);
+  transition: transform 0.1s ease-out;
+} 

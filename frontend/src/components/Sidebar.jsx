@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Plus, MessageSquare, Trash2, Pencil, X } from 'lucide-react';
+import { Plus, MessageSquare, Trash2, Pencil } from 'lucide-react';
 import { assets } from '../assets/assets';
 
 const Sidebar = ({ open, onClose, onNewChat, conversations = [], onDeleteConversation, onRenameConversation, onSelectConversation, activeConversationId }) => {
@@ -62,23 +62,11 @@ const Sidebar = ({ open, onClose, onNewChat, conversations = [], onDeleteConvers
         initial={{ x: -320 }}
         animate={{ x: open ? 0 : -320 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className={`fixed lg:relative lg:translate-x-0 w-80 bg-gray-900 text-white z-60 flex flex-col ${open ? 'pointer-events-auto' : 'pointer-events-none'} top-16 lg:top-0 h-[calc(100vh-4rem)] lg:h-full`}
+        className={`fixed lg:relative lg:translate-x-0 w-80 bg-gray-900 text-white z-60 flex flex-col ${open ? 'pointer-events-auto' : 'pointer-events-none'} top-0 h-full`}
         style={{ left: 0 }}
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Mobile Header - Only visible on mobile */}
-        <div className="lg:hidden flex items-center justify-between p-4 border-b border-gray-700">
-          <div className="flex items-center">
-            <img src={assets.ailogo} alt="ALVERGE AI Logo" className="w-8 h-8" />
-          </div>
-          <button
-            onClick={onClose}
-            className="p-2 rounded-lg bg-gray-800 text-white hover:bg-gray-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#38BDF8]"
-            aria-label="Close sidebar"
-          >
-            <X className="w-6 h-6" />
-          </button>
-        </div>
+
 
         {/* Mobile New Chat Button - Only visible on mobile */}
         <div className="lg:hidden p-4 border-b border-gray-700">
@@ -98,7 +86,7 @@ const Sidebar = ({ open, onClose, onNewChat, conversations = [], onDeleteConvers
 
         {/* Conversations */}
         <div className="flex-1 p-0 flex flex-col">
-          <div className="overflow-y-auto p-4" style={{ maxHeight: 'calc(100vh - 160px)' }}>
+          <div className="overflow-y-auto p-4" style={{ maxHeight: 'calc(100vh - 120px)' }}>
           <h3 className="text-sm font-medium text-gray-400 mb-3">Recent Conversations</h3>
           <div className="space-y-2">
             {safeConversations.map((conv) => (
@@ -136,14 +124,26 @@ const Sidebar = ({ open, onClose, onNewChat, conversations = [], onDeleteConvers
                   aria-label="Rename conversation"
                   onClick={e => { e.stopPropagation(); handleRenameStart(conv); }}
                 >
-                  <Pencil className="w-4 h-4 text-gray-400" />
+                  <lord-icon
+                    src="https://cdn.lordicon.com/gwlusjdu.json"
+                    trigger="hover"
+                    style={{ width: "25px", height: "25px" }}
+                    colors="primary:#ffffff"
+                  >
+                  </lord-icon>
                 </button>
                 <button
                   className="lg:opacity-0 lg:group-hover:opacity-100 opacity-100 p-1 hover:bg-gray-700 rounded transition-all"
                   aria-label="Delete conversation"
                     onClick={e => { e.stopPropagation(); onDeleteConversation && onDeleteConversation(conv._id); }}
                 >
-                  <Trash2 className="w-4 h-4 text-gray-400" />
+                  <lord-icon
+                    src="https://cdn.lordicon.com/skkahier.json"
+                    trigger="hover"
+                    style={{ width: "25px", height: "25px" }}
+                    colors="primary:#ffffff"
+                  >
+                  </lord-icon>
                 </button>
               </div>
             ))}

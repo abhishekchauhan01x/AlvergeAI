@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import InputArea from './InputArea';
+import Hamburger from '../ui/hamburger';
 
 // --- ChatMessage Component ---
 const ChatMessage = ({ message, isUser, timestamp, subtlePalette }) => {
@@ -159,15 +160,13 @@ const ChatInterface1 = () => {
         />
       </div>
       {/* Mobile sidebar toggle */}
-      <button
-        className="lg:hidden fixed top-20 left-4 z-30 p-2 rounded-full bg-[#232946] text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-[#38BDF8]"
-        onClick={() => setSidebarOpen(true)}
-        aria-label="Open sidebar"
-      >
-        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
+      <div className="lg:hidden fixed top-20 left-4 z-30">
+        <Hamburger 
+          onToggle={() => setSidebarOpen(!sidebarOpen)}
+          isOpen={sidebarOpen}
+          size="default"
+        />
+      </div>
       {/* Main chat area with left padding for sidebar */}
       <div className="flex-1 flex flex-col items-center justify-center px-2 sm:px-6 lg:pl-80 w-full relative bg-gradient-to-b from-[#23272f] via-[#2d3140] to-[#23272f]">
         <div className="w-full flex flex-col flex-1 rounded-3xl shadow-xl border border-[#3a3f4b]/40 bg-[#23272f] backdrop-blur-md" style={{ minHeight: '60vh', marginTop: '32px', marginBottom: '120px' }}>

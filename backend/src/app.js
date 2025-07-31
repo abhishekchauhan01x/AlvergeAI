@@ -49,6 +49,10 @@ const corsOptions = {
     const allowedOrigins = [
       'https://alverge-ai-p5g7.vercel.app', // Vercel frontend deployment
       'https://alverge-ai-p5g7-982xtqgk0-abhishek-chauhans-projects-81c718e5.vercel.app', // Vercel preview domain
+      'http://localhost:5173', // Local development frontend
+      'http://localhost:5173/', // Local development frontend with trailing slash
+      'http://127.0.0.1:5173', // Alternative localhost
+      'http://127.0.0.1:5173/', // Alternative localhost with trailing slash
       // Add your production domains here
       // Add your production domains here
       process.env.FRONTEND_URL,
