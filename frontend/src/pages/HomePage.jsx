@@ -465,7 +465,7 @@ const HomePage = () => {
                   I welcome contributions and feedback from fellow developers.
                 </p>
                 <a 
-                  href="https://github.com/abhishekchauhan01x/linkforge" 
+                  href="https://github.com/abhishekchauhan01x/AlvergeAI" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center gap-2 text-[#38BDF8] hover:text-[#14B8A6] transition-colors duration-300 cursor-pointer"
