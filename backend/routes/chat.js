@@ -7,6 +7,7 @@ import firebaseAuth from '../middleware/firebaseAuth.js';
 import Conversation from '../models/Conversation.js';
 import Message from '../models/Message.js';
 import Groq from "groq-sdk";
+import { searchWeb } from "../utils/webSearch.js";
 import { 
   sanitizeInput, 
   validateChatMessage, 
@@ -164,13 +165,14 @@ router.post(
   validateChatMessage,
   handleValidationErrors,
   async (req, res) => {
-    const { conversationId, text } = req.body;
+    const { conversationId, text, webSearch } = req.body;
     const startTime = Date.now();
     try {
       logger.info('Processing chat message', { 
         userId: req.user.uid, 
         conversationId, 
-        textLength: text.length 
+        textLength: text.length,
+        webSearch: Boolean(webSearch)
       });
       let conversation;
       if (conversationId) {
@@ -241,6 +243,23 @@ router.post(
         role: 'system',
         content: `Today is ${dateString}, and the current time is ${timeString}. Please use this real-time information if needed.`
       });
+
+      // Optionally add web search context
+      if (webSearch === true) {
+        try {
+          const context = await searchWeb(text);
+          if (context) {
+            chatHistory.unshift({
+              role: 'system',
+              content: `${context}\nWhen responding, synthesize the relevant points and cite sources inline as [1], [2], etc. Include the URL(s) at the end.`
+            });
+          } else {
+            logger.warn('Web search requested but no context available (missing API key or no results).');
+          }
+        } catch (searchErr) {
+          logger.warn('Web search failed', { error: searchErr?.message });
+        }
+      }
       chatHistory.push({ role: 'user', content: text });
       // Call Groq AI
       let aiText = 'Sorry, I could not generate a response.';

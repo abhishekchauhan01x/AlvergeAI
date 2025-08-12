@@ -49,6 +49,7 @@ const corsOptions = {
     const allowedOrigins = [
       'https://alverge-ai-p5g7.vercel.app', // Vercel frontend deployment
       'https://alvergeai.onrender.com', // Render backend
+      'http://localhost:5173', // Local development (Vite)
       // Environment variables for additional domains
       process.env.FRONTEND_URL,
       process.env.ALLOWED_ORIGIN_1,

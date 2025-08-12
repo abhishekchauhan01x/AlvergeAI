@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import MessageBubble from './MessageBubble';
-import InputArea from './InputArea';
+import AiInput from './ui/ai-input';
 import Sidebar from './Sidebar';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -324,13 +324,14 @@ const ChatInterface = () => {
     setSidebarOpen(false);
   };
 
-  const handleSendMessage = async (text) => {
+  const handleSendMessage = async (text, options = {}) => {
+    const { webSearch = false } = options;
     if (!text.trim() || aiTyping) return;
 
     setAiTyping(true);
     setError(null);
     const token = await getToken();
-    const body = conversationId ? { text, conversationId } : { text };
+    const body = conversationId ? { text, conversationId, webSearch } : { text, webSearch };
     const userRes = await fetch(`${API_BASE}/chat/send`, {
       method: 'POST',
       headers: {
@@ -453,7 +454,7 @@ const ChatInterface = () => {
         <div className="flex-shrink-0 px-4 sm:px-6 pb-4 pt-2 relative z-10 overflow-hidden">
           <div className="w-full max-w-7xl mx-auto flex justify-center overflow-hidden">
             <div className="w-full max-w-6xl overflow-hidden">
-              <InputArea onSendMessage={handleSendMessage} />
+              <AiInput onSendMessage={handleSendMessage} />
       </div>
           </div>
         </div>

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import ChatInterface from './components/ChatInterface';
-import ChatInterface1 from './components/ChatInterface1';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -32,7 +31,6 @@ const AppWithRedirect = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/chat" element={<ChatInterface />} />
-          <Route path="/chat1" element={<ChatInterface1 />} />
           <Route path="/sign-in" element={<SignInPage />} />
           <Route path="/sign-up" element={<SignUpPage />} />
           <Route path="/terms" element={<TermsOfService />} />

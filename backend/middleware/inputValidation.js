@@ -88,6 +88,12 @@ export const validateChatMessage = [
     .optional()
     .isMongoId()
     .withMessage('Invalid conversation ID format'),
+
+  body('webSearch')
+    .optional()
+    .isBoolean()
+    .withMessage('webSearch must be a boolean')
+    .toBoolean(),
 ];
 
 /**
